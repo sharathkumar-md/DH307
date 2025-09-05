@@ -3,7 +3,10 @@ from dotenv import load_dotenv
 import streamlit as st
 from langchain_community.vectorstores import FAISS, Chroma
 from langchain.chains import RetrievalQA
-from langchain_community.embeddings import HuggingFaceEmbeddings
+try:
+    from langchain_huggingface import HuggingFaceEmbeddings
+except ImportError:
+    from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Load environment variables (API keys, etc.)
@@ -83,7 +86,7 @@ def get_qa_chain(db):
         retriever = db.as_retriever(
             search_type="similarity_score_threshold",
             search_kwargs={
-                "score_threshold": 0.7,  # Higher threshold for better relevance
+                "score_threshold": 0.6,  # Lowered threshold for better retrieval
                 "k": 5  # Retrieve top 5 most relevant chunks
             }
         )
