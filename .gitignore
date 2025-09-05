@@ -131,11 +131,9 @@ dmypy.json
 # RAG Chatbot specific files
 # Vector databases (contains processed document embeddings)
 vector_db/
-rag_chatbot/vector_db/
 
 # Document storage (contains potentially sensitive PDFs)
 documents/
-rag_chatbot/documents/
 
 # API keys and sensitive configuration
 .env
@@ -160,7 +158,6 @@ config/local.yml
 # Log files
 *.log
 logs/
-rag_chatbot/logs/
 
 # Temporary files
 tmp/
