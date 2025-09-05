@@ -140,7 +140,7 @@ def main():
     st.markdown("---")
     st.subheader("Setup")
     
-    db_path = st.text_input("Vector Database Path:", value="rag_chatbot/vector_db", 
+    db_path = st.text_input("Vector Database Path:", value="vector_db", 
                            help="Path to your vector database folder")
     use_faiss = st.checkbox("Use FAISS", value=True, help="Keep this checked for better performance")
     
