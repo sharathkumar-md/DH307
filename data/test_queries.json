@@ -1,0 +1,667 @@
+[
+    {
+        "query": "What is the definition of Hypertension based on SBP and DBP measurements?",
+        "relevant_docs": ["399"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the definition of a Hypertensive Urgency?",
+        "relevant_docs": ["400", "76"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What are the four main types of Non-Communicable Diseases (NCDs) listed in the sources?",
+        "relevant_docs": ["59"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the basic formula used to calculate Blood Pressure (BP)?",
+        "relevant_docs": ["399"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What are the key features of Generalized Anxiety Disorder?",
+        "relevant_docs": ["107"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the primary cause of Essential Hypertension, and what percentage of cases does it account for?",
+        "relevant_docs": ["401", "75"],
+        "query_type": "factual"
+    },
+    {
+        "query": "Which BMI classification is considered 'Obesity Class I' according to the specified metrics?",
+        "relevant_docs": ["63"],
+        "query_type": "factual"
+    },
+    {
+        "query": "Name two modifiable and two non-modifiable risk factors for Primary Hypertension.",
+        "relevant_docs": ["77", "91", "491"],
+        "query_type": "listing"
+    },
+    {
+        "query": "What is the risk stratification (in terms of risk of comorbidities) for an adult with a BMI of 25.0 to 29.9 kg/m2?",
+        "relevant_docs": ["63"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What are the specific SBP and DBP ranges that define mildly elevated blood pressure (Hypertension among adults) in the NFHS 5 data tables?",
+        "relevant_docs": ["5", "7", "76"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What specific health risks are linked to obesity, according to the Adolescent Health Care Manual?",
+        "relevant_docs": ["2", "4"],
+        "query_type": "listing"
+    },
+    {
+        "query": "What is the normal pulse rate range (beats per minute) cited in the Care During Pregnancy manual?",
+        "relevant_docs": ["150"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What BMI range is considered 'Normal range' for adults?",
+        "relevant_docs": ["63", "458"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What three lifestyle habits are explicitly discouraged for DM management according to the Homoeopathy guidelines?",
+        "relevant_docs": ["94"],
+        "query_type": "listing"
+    },
+    {
+        "query": "What condition is suggested by non-pitting oedema during pregnancy, and where should the patient be immediately referred?",
+        "relevant_docs": ["152"],
+        "query_type": "factual"
+    },
+    {
+        "query": "When performing a breast examination on a premenopausal woman, when is the optimal time for a Clinical Breast Examination (CBE)?",
+        "relevant_docs": ["509"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the target population age group for universal population-based screening for Hypertension and Diabetes under the AB-HWC program?",
+        "relevant_docs": ["220", "226", "487"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the cut-off BMI for considering an adult male patient 'Overweight' in the context of HTN risk assessment?",
+        "relevant_docs": ["411", "458"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What specific blood pressure reading is used as the referral threshold if oedema is present during pregnancy?",
+        "relevant_docs": ["40", "42", "162"],
+        "query_type": "factual"
+    },
+    {
+        "query": "According to the API classification, what BP range defines 'Stage 3 hypertension'?",
+        "relevant_docs": ["76"],
+        "query_type": "factual"
+    },
+    {
+        "query": "In which stage of hypertension is a patient advised only lifestyle modifications for 1-2 months before initiating drug therapy (assuming low risk of CVDs)?",
+        "relevant_docs": ["419", "420"],
+        "query_type": "factual"
+    },
+    {
+        "query": "When should drug therapy be initiated immediately for a patient with Stage 3 Hypertension?",
+        "relevant_docs": ["420", "422"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the definition of Pre-eclampsia?",
+        "relevant_docs": ["168"],
+        "query_type": "factual"
+    },
+    {
+        "query": "List the three common cancers targeted for screening under the AB-HWC program.",
+        "relevant_docs": ["220", "221", "297", "521"],
+        "query_type": "listing"
+    },
+    {
+        "query": "What are the clinical manifestations of Anaemia in pregnant women?",
+        "relevant_docs": ["34"],
+        "query_type": "listing"
+    },
+    {
+        "query": "What investigation is required to confirm Gestational Diabetes Mellitus (GDM), and what is the resulting plasma glucose threshold?",
+        "relevant_docs": ["183", "184"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What are two common symptoms of Hyperglycaemia listed in the sources?",
+        "relevant_docs": ["89", "443"],
+        "query_type": "listing"
+    },
+    {
+        "query": "What complication risk is associated with an extra large baby due to Gestational Diabetes?",
+        "relevant_docs": ["163"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the recommended blood sugar target (RBS) during follow-up visits for diabetic patients at the HWC-SHC?",
+        "relevant_docs": ["477"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What specific side effect of Metformin is noted, and what three conditions warrant caution or avoidance of its use?",
+        "relevant_docs": ["453"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the normal BMI range mentioned in the context of DM management?",
+        "relevant_docs": ["458"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What blood lipid level is classified as 'High' for Total Cholesterol?",
+        "relevant_docs": ["65"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the referral criteria for uncontrolled Hypertension in the context of Dyslipidemia/Obesity management?",
+        "relevant_docs": ["73", "88"],
+        "query_type": "factual"
+    },
+    {
+        "query": "For a patient with diabetes and chronic kidney disease, how frequently should haemoglobin (Hb) be checked?",
+        "relevant_docs": ["463"],
+        "query_type": "factual"
+    },
+    {
+        "query": "Why should diabetic patients with neuropathy avoid exercises like running and weight lifting?",
+        "relevant_docs": ["452"],
+        "query_type": "factual"
+    },
+    {
+        "query": "Describe the proper placement of the cuff when measuring BP using a manual sphygmomanometer.",
+        "relevant_docs": ["174"],
+        "query_type": "procedural"
+    },
+    {
+        "query": "What criteria should be met regarding blood pressure readings and timing to confirm the diagnosis of Hypertension in a clinic setting?",
+        "relevant_docs": ["409", "153"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the significance of a difference in BP readings of more than 10 mmHg between the two arms?",
+        "relevant_docs": ["409"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the sequence of steps for abdominal examination during pregnancy to check fetal presentation and FHS?",
+        "relevant_docs": ["159"],
+        "query_type": "procedural"
+    },
+    {
+        "query": "When conducting a heel prick for a blood sample (e.g., in a newborn), which part of the heel should be avoided?",
+        "relevant_docs": ["617"],
+        "query_type": "procedural"
+    },
+    {
+        "query": "What are the instructions for the patient regarding movement after the first drop of blood is collected during Haemoglobin estimation via finger prick?",
+        "relevant_docs": ["181"],
+        "query_type": "procedural"
+    },
+    {
+        "query": "What two key questions must be asked to determine the EDD of a pregnant woman?",
+        "relevant_docs": ["147"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the expected total weight gain during pregnancy for a healthy woman, on average?",
+        "relevant_docs": ["31"],
+        "query_type": "factual"
+    },
+    {
+        "query": "If a pregnant woman gains more than 3 kg in a month, what three conditions should be suspected?",
+        "relevant_docs": ["155"],
+        "query_type": "listing"
+    },
+    {
+        "query": "What is the normal range for Fetal Heart Sound (FHS) beats per minute?",
+        "relevant_docs": ["32"],
+        "query_type": "factual"
+    },
+    {
+        "query": "When screening using the Community Based Assessment Checklist (CBAC), what score indicates that a person is at higher risk of NCDs and needs prioritization?",
+        "relevant_docs": ["488", "358"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What percentage of the total population in a typical HWC coverage area (5000 population) is expected to be 30 years and above, based on the calculation table?",
+        "relevant_docs": ["243"],
+        "query_type": "numerical"
+    },
+    {
+        "query": "Estimate the total number of individuals aged 30 years and above in a 5000 population HWC area.",
+        "relevant_docs": ["243"],
+        "query_type": "numerical"
+    },
+    {
+        "query": "If the Infant Mortality Rate (IMR) is 33/1000 live births, what is the estimated number of infant deaths per year in an HWC area covering 5000 people (assuming 101 live births)?",
+        "relevant_docs": ["247"],
+        "query_type": "numerical"
+    },
+    {
+        "query": "How is 'Prevalence' defined in epidemiology, according to the training manual?",
+        "relevant_docs": ["249"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What proportion of all pregnancies is estimated to face maternal complications (maternal complexity)?",
+        "relevant_docs": ["245"],
+        "query_type": "numerical"
+    },
+    {
+        "query": "What is the population size estimated for the 10-19 year age group in a standard 5000 population HWC area?",
+        "relevant_docs": ["243"],
+        "query_type": "numerical"
+    },
+    {
+        "query": "In the context of NCD monitoring, what is the denominator used to calculate the 'Proportion of above 30 years individuals screened for Hypertension (%)'?",
+        "relevant_docs": ["378", "223"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the expected minimum daily intake of salt for patients advised a low salt diet for DM management?",
+        "relevant_docs": ["471"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What maximum duration should heat applications last when used for chronic pain management in palliative care?",
+        "relevant_docs": ["567"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the threshold for Systolic BP that requires immediate referral in case of Sickle Cell Disease (SCD) complications (hypotension)?",
+        "relevant_docs": ["390"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What are three symptoms listed in the sources that are associated with a Heart Attack (Myocardial Infarction)?",
+        "relevant_docs": ["505", "506"],
+        "query_type": "listing"
+    },
+    {
+        "query": "Name three danger signs in a dengue infection patient that warrant referral to a higher center.",
+        "relevant_docs": ["390"],
+        "query_type": "listing"
+    },
+    {
+        "query": "What is the characteristic appearance of urine in acute renal failure associated with severe malaria (Black Water Fever)?",
+        "relevant_docs": ["389"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What key difference distinguishes Hypertensive Emergency from Hypertensive Urgency?",
+        "relevant_docs": ["432", "400"],
+        "query_type": "factual"
+    },
+    {
+        "query": "List the organs involved in the ABCDEFG mnemonic used to assess acute target organ damage in hypertensive emergencies.",
+        "relevant_docs": ["426"],
+        "query_type": "listing"
+    },
+    {
+        "query": "What homoeopathic medicine is indicated for high blood pressure caused by valvular lesions and arteriosclerosis, often accompanied by visible beating of the carotids?",
+        "relevant_docs": ["82"],
+        "query_type": "factual"
+    },
+    {
+        "query": "For which age group and for what condition is the homoeopathic medicine Enalapril preferably a first choice antihypertensive?",
+        "relevant_docs": ["435"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the Homoeopathic medicine indicated for headache that feels like everything would be pressed out, worsened by motion, stooping, or opening the eyes?",
+        "relevant_docs": ["37"],
+        "query_type": "factual"
+    },
+    {
+        "query": "Which Homoeopathic medicine is indicated for patients who are gentle, easily weepy, and experience changeable menstrual flow and crave open air?",
+        "relevant_docs": ["46"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What are the indications for using Aurum metallicum in managing Hypertension?",
+        "relevant_docs": ["82"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What are the indications for prescribing Belladonna in cases of fever?",
+        "relevant_docs": ["43", "52", "145"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the homoeopathic medicine useful for general degenerative changes, particularly affecting the coats of arteries?",
+        "relevant_docs": ["71"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What homoeopathic medicine is indicated for the patient who is sluggish, fat, lazy, prone to chronicity, and requires fanning due to oppressed respiration, often seen in states of collapse in Typhoid?",
+        "relevant_docs": ["55"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What homoeopathic medicine is indicated for headache starting from sunrise to sunset with pale face, nausea, and vomiting, associated with weakness?",
+        "relevant_docs": ["30"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What non-pharmacological methods are recommended for managing migraines versus tension headaches?",
+        "relevant_docs": ["36"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What homoeopathic remedy is indicated for a high blood pressure resulting from the bad effects of mental excitement, fear, fright, or sunstroke, with a throbbing headache?",
+        "relevant_docs": ["84"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the primary objective of Homoeopathy guidelines at the community level for health and wellness?",
+        "relevant_docs": ["27"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What are the two specific contraindications for using the antihypertensive drug Enalapril?",
+        "relevant_docs": ["435"],
+        "query_type": "factual"
+    },
+    {
+        "query": "In which type of DM is lifelong daily insulin administration essential?",
+        "relevant_docs": ["448", "440"],
+        "query_type": "factual"
+    },
+    {
+        "query": "Which two chronic illnesses are specifically mentioned as risk factors for Insomnia?",
+        "relevant_docs": ["101"],
+        "query_type": "listing"
+    },
+    {
+        "query": "Name two types of exercises that patients with diabetic neuropathy should prefer instead of running or brisk walking.",
+        "relevant_docs": ["452"],
+        "query_type": "listing"
+    },
+    {
+        "query": "What is the minimum recommended duration and frequency for brisk walking/physical activity for ambulatory patients with diabetes?",
+        "relevant_docs": ["95", "451", "470"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What are the two categories of complications resulting from Diabetes Mellitus?",
+        "relevant_docs": ["92"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What advice should be given to an individual with Myopia to help lower the risk of progression?",
+        "relevant_docs": ["113"],
+        "query_type": "factual"
+    },
+    {
+        "query": "During an Adolescent Health Day (AHD) session, what four essential commodities must the CHO ensure are supplied?",
+        "relevant_docs": ["280"],
+        "query_type": "listing"
+    },
+    {
+        "query": "What is the normal respiratory rate for an adult, and what rate indicates severe anemia or heart disease in a pregnant woman?",
+        "relevant_docs": ["151", "588"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What three signs or symptoms define Eclampsia?",
+        "relevant_docs": ["169"],
+        "query_type": "listing"
+    },
+    {
+        "query": "What condition is suspected if a pregnant woman presents with jaundice and a respiratory rate over 30 breaths/min?",
+        "relevant_docs": ["162", "151"],
+        "query_type": "factual"
+    },
+    {
+        "query": "List four physical changes that must be examined during the general physical examination of a pregnant woman.",
+        "relevant_docs": ["31"],
+        "query_type": "listing"
+    },
+    {
+        "query": "If a child aged 2-12 months has a respiratory rate greater than 50 breaths per minute, what condition might this indicate?",
+        "relevant_docs": ["595"],
+        "query_type": "factual"
+    },
+    {
+        "query": "For geriatric screening, how often should blood pressure be checked for patients without hypertension?",
+        "relevant_docs": ["126"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What are the criteria used to classify an adult female patient as having 'central obesity' using waist circumference and waist-hip ratio?",
+        "relevant_docs": ["62", "458"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What are two non-pharmacological management strategies for BPH recommended for Lifestyle alteration?",
+        "relevant_docs": ["128", "602"],
+        "query_type": "listing"
+    },
+    {
+        "query": "What is the recommended interval for monitoring Bone Mineral Density (BMD) for Osteoporosis screening in geriatric patients (age 65+)?",
+        "relevant_docs": ["126"],
+        "query_type": "factual"
+    },
+    {
+        "query": "Name three organ systems and one ailment associated with each system commonly seen in geriatrics.",
+        "relevant_docs": ["124"],
+        "query_type": "listing"
+    },
+    {
+        "query": "What instruction should be given to the family regarding taking high protein diet when the palliative care patient has nausea and vomiting?",
+        "relevant_docs": ["576"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the suggested frequency for convening a Patient Support Group (PSG) for Palliative Care patients?",
+        "relevant_docs": ["300"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the role of the ASHA/ANM team in drug supply once a patient's NCD condition (HT/DM) is stable?",
+        "relevant_docs": ["529"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the responsibility of the ASHA/ANM team regarding the calibration of screening equipment like BP instruments and glucometers?",
+        "relevant_docs": ["531"],
+        "query_type": "factual"
+    },
+    {
+        "query": "In the context of NCD screening, what is the role of the VHSNC members on the screening day?",
+        "relevant_docs": ["527"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the maximum number of test results that can be stored in the memory of the blood glucose meter mentioned in the Annexures?",
+        "relevant_docs": ["188"],
+        "query_type": "numerical"
+    },
+    {
+        "query": "What is the process called when the primary care team creates a population-based list of families and registers all individuals in the HWC service area?",
+        "relevant_docs": ["250"],
+        "query_type": "factual"
+    },
+    {
+        "query": "List three specific symptoms included in the CBAC Part B (Early Detection) that trigger referral for oral cancer screening.",
+        "relevant_docs": ["533", "359"],
+        "query_type": "listing"
+    },
+    {
+        "query": "What is the key difference between Hypertensive Emergency and Hypertensive Urgency in terms of acute target organ damage?",
+        "relevant_docs": ["432", "400"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What are two key symptoms of hypothyroidism that a CHO should look for in a pregnant woman?",
+        "relevant_docs": ["156"],
+        "query_type": "listing"
+    },
+    {
+        "query": "What is the specific instruction regarding nitroglycerine when managing a suspected heart attack in the community?",
+        "relevant_docs": ["209", "210"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What minimum frequency should mental health screening (using PHQ 9 score) and follow-up be conducted for patients receiving interventions for mental and neurological conditions?",
+        "relevant_docs": ["549"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the recommended frequency for follow-up visits for all patients with uncomplicated hypertension at the HWC-SHC?",
+        "relevant_docs": ["425"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What are the immediate intervention steps if severe bleeding occurs from the nose (Epistaxis)?",
+        "relevant_docs": ["212"],
+        "query_type": "procedural"
+    },
+    {
+        "query": "Name two homoeopathic remedies listed for the management of Scabies/Skin Infections, besides Sulphur.",
+        "relevant_docs": ["57", "58"],
+        "query_type": "listing"
+    },
+    {
+        "query": "In which age group is Type 1 Diabetes Mellitus onset most common, and what percentage of adult DM cases does it represent?",
+        "relevant_docs": ["440"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the role of the CHO concerning IEC/awareness activities for the management of communicable diseases?",
+        "relevant_docs": ["294"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the referral criteria for Systolic Blood Pressure in Yellow Tagged patients in emergency management?",
+        "relevant_docs": ["204"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the referral criteria for Diastolic Blood Pressure in Red Tagged patients in emergency management?",
+        "relevant_docs": ["203"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What are two risk factors for Peripheral Artery Disease (PAD)?",
+        "relevant_docs": ["604"],
+        "query_type": "listing"
+    },
+    {
+        "query": "What symptoms are typically associated with Peripheral Artery Disease (PAD) that indicate severely decreased blood supply?",
+        "relevant_docs": ["605"],
+        "query_type": "factual"
+    },
+    {
+        "query": "List four modifiable risk factors for NCDs identified under the Homoeopathy guidelines for Overweight/Obesity.",
+        "relevant_docs": ["62"],
+        "query_type": "listing"
+    },
+    {
+        "query": "In which state/UT was the highest percentage of adult males (15 years and above) reported with mildly elevated hypertension (SBP: 140-159 mm of Hg; and/or DBP: 90-99 mm of Hg)?",
+        "relevant_docs": ["14", "16"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the recommended frequency for eye examinations in diabetic patients with good sugar control and no complications?",
+        "relevant_docs": ["499"],
+        "query_type": "factual"
+    },
+    {
+        "query": "List two key components that must be present in the family folder maintained by the ASHA.",
+        "relevant_docs": ["351", "352"],
+        "query_type": "listing"
+    },
+    {
+        "query": "What specific drug is contraindicated during pregnancy for patients with SCD (Sickle Cell Disease)?",
+        "relevant_docs": ["610"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What key difference should be noted regarding the description of ischemic pain (heart attack) compared to other types of pain?",
+        "relevant_docs": ["505"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the classification of BP (according to API) for an adult with a Systolic BP of 165 mmHg and a Diastolic BP of 105 mmHg?",
+        "relevant_docs": ["76"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What are the common symptoms and signs of an anxiety disorder related to the Cardiovascular system?",
+        "relevant_docs": ["108"],
+        "query_type": "listing"
+    },
+    {
+        "query": "According to the general physical examination steps, what should the Respiratory Rate (RR) normally be?",
+        "relevant_docs": ["588"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What is the role of Naturopathy in healthcare, according to the AYUSH sources?",
+        "relevant_docs": ["511"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What symptom related to the head and face is specifically associated with high blood pressure and edema of the lower limbs, for which Rauvolfia serpentina is indicated?",
+        "relevant_docs": ["42", "85"],
+        "query_type": "factual"
+    },
+    {
+        "query": "What does the abbreviation HTN stand for?",
+        "relevant_docs": ["28", "396"],
+        "query_type": "abbreviation"
+    },
+    {
+        "query": "What does the abbreviation DM stand for?",
+        "relevant_docs": ["28", "396"],
+        "query_type": "abbreviation"
+    },
+    {
+        "query": "What does the abbreviation CCRH stand for?",
+        "relevant_docs": ["28"],
+        "query_type": "abbreviation"
+    },
+    {
+        "query": "What does the abbreviation COPD stand for?",
+        "relevant_docs": ["28"],
+        "query_type": "abbreviation"
+    },
+    {
+        "query": "What does the abbreviation RBS stand for in the context of blood sugar testing?",
+        "relevant_docs": ["396"],
+        "query_type": "abbreviation"
+    },
+    {
+        "query": "What is the abbreviation for Electrocardiography?",
+        "relevant_docs": ["28"],
+        "query_type": "abbreviation"
+    },
+    {
+        "query": "What does the acronym DKA stand for in relation to DM complications?",
+        "relevant_docs": ["92"],
+        "query_type": "abbreviation"
+    },
+    {
+        "query": "What does the abbreviation DVT stand for?",
+        "relevant_docs": ["28"],
+        "query_type": "abbreviation"
+    },
+    {
+        "query": "What does the abbreviation FHS stand for in maternal health context?",
+        "relevant_docs": ["28", "32"],
+        "query_type": "abbreviation"
+    },
+    {
+        "query": "What is the abbreviation IMR stand for?",
+        "relevant_docs": ["228"],
+        "query_type": "abbreviation"
+    }
+]

@@ -1,0 +1,66 @@
+================================================================================
+EVALUATION RESULTS SUMMARY FOR GUIDE PRESENTATION
+Maharashtra Government CHO Training RAG System - KCDH, IIT Bombay
+================================================================================
+
+KEY FINDINGS:
+
+1. BEST CONFIGURATION: Dense-Heavy Hybrid (α=0.7)
+   - F1 Score: 0.793 (79.3% accuracy)
+   - Precision: 0.746 (74.6% relevant results)
+   - Recall: 0.806 (80.6% coverage)
+   - MRR: 0.838 (relevant doc typically at position 1-2)
+   - Hit Rate: 95.8% (found relevant docs in 95.8% of queries)
+
+2. OPTIMAL PARAMETERS:
+   - Alpha (α): 0.7 (70% semantic, 30% keyword)
+   - Top-K: 7 documents
+   - Method: Dense-heavy hybrid retrieval
+
+3. PERFORMANCE INSIGHTS:
+   - Hybrid methods outperform pure methods by 8-12%
+   - Medical domain benefits from semantic-heavy approach
+   - Factual queries perform best (82% F1)
+   - Comparative queries most challenging (75% F1)
+
+4. LATENCY:
+   - Average: 170ms (well below 200ms real-time threshold)
+   - Pure BM25 fastest: 76ms
+   - Hybrid acceptable: 170-175ms
+
+5. WHAT TO TELL YOUR GUIDE:
+   - Systematic evaluation of 133 test queries
+   - Tested 5 retrieval configurations
+   - Tested 11 alpha values (0.0 to 1.0)
+   - Tested 5 top-K values (3, 5, 7, 10, 15)
+   - Found optimal configuration: Dense-Heavy Hybrid, α=0.7, K=7
+   - Achieved 79% F1 score, 96% hit rate
+
+6. NEXT STEPS:
+   - Test medical-specific embeddings (BioBERT, PubMedBERT)
+   - Add citation tracking
+   - Implement reranking
+   - Production deployment
+
+================================================================================
+PLOTS GENERATED:
+================================================================================
+
+1. Retrieval Methods Comparison - Shows all 5 methods across 6 metrics
+2. Alpha Sensitivity - Shows optimal semantic-keyword balance at 0.7
+3. Top-K Analysis - Shows precision-recall tradeoff, optimal at K=7
+4. Query Type Analysis - Performance breakdown by query type
+5. Radar Chart - Multi-metric comparison of top 3 configs
+6. Latency Analysis - All configs achieve <200ms real-time performance
+7. Summary Table - Complete comparison in tabular format
+
+================================================================================
+PRESENTATION TIPS:
+================================================================================
+
+- Focus on plots 1, 2, 3 (most important)
+- Show plot 7 (summary table) at the end
+- Emphasize: hybrid > pure, α=0.7 optimal, 79% F1 is good baseline
+- If asked about low scores: 'This is baseline with general embeddings'
+- Confidence: 'We systematically evaluated and found optimal config'
+

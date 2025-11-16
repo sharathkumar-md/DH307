@@ -5,3 +5,16 @@ faiss-cpu>=1.7.4
 chromadb>=0.4.0
 python-dotenv>=1.0.0
 streamlit>=1.25.0
+llama-index
+pypdf
+nltk
+rank-bm25
+sentence-transformers
+pandas
+matplotlib
+seaborn
+
+# Query Preprocessing & Spell Checking
+textblob>=0.17.1
+pyspellchecker>=0.7.0
+rapidfuzz>=3.0.0  # For fuzzy string matching
