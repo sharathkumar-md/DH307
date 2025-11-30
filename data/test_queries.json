@@ -1,0 +1,317 @@
+[
+    {
+        "query_id": 1,
+        "query": "What is the formula for calculating the Expected Date of Delivery (EDD) based on the Last Menstrual Period (LMP)?",
+        "relevant_docs": ["15"],
+        "query_type": "factual",
+        "source": "Care During Pregnancy and Childbirth Training Manual for CHO"
+    },
+    {
+        "query_id": 2,
+        "query": "What is Sarcopenia in the context of elderly health?",
+        "relevant_docs": ["10"],
+        "query_type": "factual",
+        "source": "Elderly & Palliative Care for CHO & SN"
+    },
+    {
+        "query_id": 3,
+        "query": "Under the WIFS (Weekly Iron Folic Acid Supplementation) programme, what is the specific composition of the IFA tablet given to adolescents?",
+        "relevant_docs": ["17"],
+        "query_type": "factual",
+        "source": "Adolescent Health Care Services Training Manual for CHO"
+    },
+    {
+        "query_id": 4,
+        "query": "According to the IPHS guidelines, how many beds should a Community Health Centre (CHC) have?",
+        "relevant_docs": ["3"],
+        "query_type": "factual",
+        "source": "Guidelines for Community Health Centres (Revised 2012)"
+    },
+    {
+        "query_id": 5,
+        "query": "In Homoeopathy, what are the specific indications for prescribing Arsenicum album for a patient suffering from asthma?",
+        "relevant_docs": ["125"],
+        "query_type": "clinical",
+        "source": "CHO Guideline Homoeopathy"
+    },
+    {
+        "query_id": 6,
+        "query": "What is the recommended schedule for testing Gestational Diabetes Mellitus (GDM) in pregnant women?",
+        "relevant_docs": ["28"],
+        "query_type": "procedural",
+        "source": "Care During Pregnancy and Childbirth Training Manual for CHO"
+    },
+    {
+        "query_id": 7,
+        "query": "What is the 'Nishchay' kit used for in the context of maternal health?",
+        "relevant_docs": ["14"],
+        "query_type": "factual",
+        "source": "Care During Pregnancy and Childbirth Training Manual for CHO"
+    },
+    {
+        "query_id": 8,
+        "query": "What are the '4 A's' of First Aid?",
+        "relevant_docs": ["237"],
+        "query_type": "factual",
+        "source": "CHO Guideline Homoeopathy"
+    },
+    {
+        "query_id": 9,
+        "query": "According to the RKSK guidelines, how many Peer Educators (Saathiya) are selected per village?",
+        "relevant_docs": ["21"],
+        "query_type": "factual",
+        "source": "Adolescent Health Care Services Training Manual for CHO"
+    },
+    {
+        "query_id": 10,
+        "query": "What are the symptoms of Presbyopia in the elderly?",
+        "relevant_docs": ["5"],
+        "query_type": "factual",
+        "source": "Elderly & Palliative Care for CHO & SN"
+    },
+    {
+        "query_id": 11,
+        "query": "What are the four categories of Medical Eligibility Criteria (MEC) used to determine the safety of contraceptive methods?",
+        "relevant_docs": ["24"],
+        "query_type": "factual",
+        "source": "Family Planning and Reproductive Health Care Services Training Manual for CHO at AB-HWC"
+    },
+    {
+        "query_id": 12,
+        "query": "What is the specific dose and schedule for the injectable contraceptive 'Antara' (MPA)?",
+        "relevant_docs": ["12"],
+        "query_type": "factual",
+        "source": "Family_Planning_Guidance_Booklet_for_CHO"
+    },
+    {
+        "query_id": 13,
+        "query": "In the context of emergency care at HWCs, what color code is assigned to patients categorized as 'Priority' during triage?",
+        "relevant_docs": ["13"],
+        "query_type": "factual",
+        "source": "Emergency OGs at HWC"
+    },
+    {
+        "query_id": 14,
+        "query": "What are the contraindications for performing ear syringing (irrigation)?",
+        "relevant_docs": ["11"],
+        "query_type": "safety",
+        "source": "ENT Care for CHO & SN-ENT care related skills & ENT examination"
+    },
+    {
+        "query_id": 15,
+        "query": "What are the clinical features that help distinguish acute tonsillitis?",
+        "relevant_docs": ["3"],
+        "query_type": "clinical",
+        "source": "ENT Care for CHO & SN-Common ENT Complaints (Throat)"
+    },
+    {
+        "query_id": 16,
+        "query": "What are the signs of approaching death (impending death) in a palliative care patient?",
+        "relevant_docs": ["6"],
+        "query_type": "clinical",
+        "source": "Elderly & Palliative Care for CHO & SN-End_of_Life_Care"
+    },
+    {
+        "query_id": 17,
+        "query": "What are the advantages of providing Home Based Palliative Care?",
+        "relevant_docs": ["3"],
+        "query_type": "factual",
+        "source": "Elderly & Palliative Care for CHO & SN-Home_Care_in_Palliative_Care"
+    },
+    {
+        "query_id": 18,
+        "query": "What are the key 'Barriers to Communication' when interacting with the elderly?",
+        "relevant_docs": ["7"],
+        "query_type": "factual",
+        "source": "Elderly & Palliative Care for CHO & SN-Health_promotion_education_&_counselling in the Elderly"
+    },
+    {
+        "query_id": 19,
+        "query": "According to the Induction Training Module, what are the three core principles of Comprehensive Primary Health Care (CPHC)?",
+        "relevant_docs": ["12"],
+        "query_type": "factual",
+        "source": "Induction Training Module for CHO at AB-HWC(English)"
+    },
+    {
+        "query_id": 20,
+        "query": "What is the subject of the letter issued by the Ministry of Health & Family Welfare regarding the training of CHOs?",
+        "relevant_docs": ["1"],
+        "query_type": "factual",
+        "source": "Letter Training NHSRC"
+    },
+    {
+        "query_id": 21,
+        "query": "According to the Management of Communicable Diseases manual, what are the three stages of a Malaria fever paroxysm?",
+        "relevant_docs": ["35"],
+        "query_type": "factual",
+        "source": "Management of Communicable Diseases Training Manual for CHO"
+    },
+    {
+        "query_id": 22,
+        "query": "What is the diagnostic criterion for Diabetes Mellitus based on Fasting Plasma Glucose (FPG) levels?",
+        "relevant_docs": ["25"],
+        "query_type": "factual",
+        "source": "Management of Non-Communicable Diseases Training Manual for CHO"
+    },
+    {
+        "query_id": 23,
+        "query": "What is the recommended dosage of Calcium and Vitamin D3 supplementation for pregnant women?",
+        "relevant_docs": ["18"],
+        "query_type": "factual",
+        "source": "Maternal_Health_Guidance_Booklet_for_CHO"
+    },
+    {
+        "query_id": 24,
+        "query": "What are the '5 Cleans' that must be ensured during delivery to prevent infection?",
+        "relevant_docs": ["23"],
+        "query_type": "factual",
+        "source": "Newborn and Child Health Services Training Manual for CHO at AB-HWC"
+    },
+    {
+        "query_id": 25,
+        "query": "What are 'Delusions' in the context of Schizophrenia?",
+        "relevant_docs": ["5"],
+        "query_type": "factual",
+        "source": "MNS Care for CHO & SN-SMD Schizophrenia"
+    },
+    {
+        "query_id": 26,
+        "query": "In the context of MNS (Mental, Neurological, and Substance use) disorders, what specific role does the CHO play regarding medication?",
+        "relevant_docs": ["9"],
+        "query_type": "procedural",
+        "source": "MNS Care for CHO & SN-Service delivery Framework & Role of CHO & SN in MNS Care"
+    },
+    {
+        "query_id": 27,
+        "query": "What is the frequency of Yoga sessions recommended at AB-HWCs?",
+        "relevant_docs": ["13"],
+        "query_type": "factual",
+        "source": "OG on Welness interventions for ABHWC_eng_Final"
+    },
+    {
+        "query_id": 28,
+        "query": "What is the recommended screening method for Cervical Cancer at the HWC level?",
+        "relevant_docs": ["6"],
+        "query_type": "factual",
+        "source": "Operational Framework Management of Common Cancers"
+    },
+    {
+        "query_id": 29,
+        "query": "Under the expanded service delivery for CPHC, what are the 12 packages of services to be provided?",
+        "relevant_docs": ["21"],
+        "query_type": "factual",
+        "source": "Operational Guideline Comprehensive Primary Health Care"
+    },
+    {
+        "query_id": 30,
+        "query": "What is the population norm for establishing a Sub Health Centre (SHC) in plain areas versus hilly/tribal areas?",
+        "relevant_docs": ["23"],
+        "query_type": "factual",
+        "source": "Operational Guidelines For Comprehensive Primary Health Care through Health and Wellness Centers (1)"
+    },
+    {
+        "query_id": 31,
+        "query": "What is the definition of 'Elderly' adopted for the National Programme for the Health Care of Elderly (NPHCE)?",
+        "relevant_docs": ["11"],
+        "query_type": "factual",
+        "source": "Operational Guidelines for Elderly Care at HWC2021"
+    },
+    {
+        "query_id": 32,
+        "query": "In the context of Eye Care at HWCs, what visual acuity threshold defines 'Blindness' according to the NPCB&VI definition?",
+        "relevant_docs": ["12"],
+        "query_type": "factual",
+        "source": "Operational Guidelines for Eye Care at AB-HWC"
+    },
+    {
+        "query_id": 33,
+        "query": "What are the six priority conditions identified for Mental, Neurological, and Substance Use (MNS) care at Health and Wellness Centres?",
+        "relevant_docs": ["15"],
+        "query_type": "factual",
+        "source": "Operational Guidelines for Mental, Neurological & substance use Disorders Care at HWCs (English)"
+    },
+    {
+        "query_id": 34,
+        "query": "What is the recommended frequency for oral health screening for individuals over 30 years of age at HWCs?",
+        "relevant_docs": ["24"],
+        "query_type": "factual",
+        "source": "Operational Guidelines for Oral Health Care at HWCs 2020"
+    },
+    {
+        "query_id": 35,
+        "query": "According to the WHO definition used in the Palliative Care guidelines, what is the primary goal of palliative care?",
+        "relevant_docs": ["11"],
+        "query_type": "factual",
+        "source": "Operational Guidelines for Palliative Care at HWC"
+    },
+    {
+        "query_id": 36,
+        "query": "What is the population norm for a Primary Health Centre (PHC) in hilly/tribal/desert areas to be upgraded to a Health and Wellness Centre?",
+        "relevant_docs": ["23"],
+        "query_type": "factual",
+        "source": "Operational_Guidelines_For_CPHC"
+    },
+    {
+        "query_id": 37,
+        "query": "What are the four main components of the 'CARE' package mentioned for ENT care at HWCs?",
+        "relevant_docs": ["12", "18"],
+        "query_type": "factual",
+        "source": "Operational_Guidelines_for_Ear__Nose_and_Throat_(ENT)_Care_at_HWCs"
+    },
+    {
+        "query_id": 38,
+        "query": "What are the three parts of a tooth described in the Oral Care training manual?",
+        "relevant_docs": ["7"],
+        "query_type": "factual",
+        "source": "Oral Care for CHO & SN-Introduction to Oral Health"
+    },
+    {
+        "query_id": 39,
+        "query": "What is 'Gingivitis' and what are its common signs?",
+        "relevant_docs": ["6"],
+        "query_type": "factual",
+        "source": "Oral Care for CHO & SN-Common Oral Condition"
+    },
+    {
+        "query_id": 40,
+        "query": "During an oral examination, what structures should be inspected when examining the 'Floor of the Mouth'?",
+        "relevant_docs": ["6"],
+        "query_type": "procedural",
+        "source": "Oral Care for CHO & SN-Oral Care related skills"
+    },
+    {
+        "query_id": 41,
+        "query": "According to the SCD training manual, what are the specific 'Red Flag Signs' or danger signs in a patient with Sickle Cell Disease that require immediate referral?",
+        "relevant_docs": ["38"],
+        "query_type": "clinical",
+        "source": "Training Manual on SCD for Community Health Officer (2)"
+    },
+    {
+        "query_id": 42,
+        "query": "What are the '4 dimensions' of care that must be addressed to provide holistic Palliative Care?",
+        "relevant_docs": ["14"],
+        "query_type": "factual",
+        "source": "Palliative Care Training Manual for CHO at AB-HWC.pdf"
+    },
+    {
+        "query_id": 43,
+        "query": "In the context of Oral Health Promotion, what is the recommended method/technique for brushing teeth?",
+        "relevant_docs": ["7"],
+        "query_type": "procedural",
+        "source": "Oral Care for CHO & SN-Oral Heath Promotion"
+    },
+    {
+        "query_id": 44,
+        "query": "According to the Service Delivery Framework, what are the specific 'Desirable' medicines that should be available at the Health and Wellness Centre (HWC) for ENT care?",
+        "relevant_docs": ["28"],
+        "query_type": "factual",
+        "source": "Service Delivery Framework for CHO in Oral, Eye and ENT care"
+    },
+    {
+        "query_id": 45,
+        "query": "What are the clinical features (signs and symptoms) of a 'Cataract' as described in the Supplementary Module?",
+        "relevant_docs": ["45"],
+        "query_type": "clinical",
+        "source": "Supplementary-Module-Book-(update)_Print Ready File"
+    }
+]
