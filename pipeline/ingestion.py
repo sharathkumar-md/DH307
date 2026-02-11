@@ -1,12 +1,4 @@
 """
-
-# Logging setup
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(name)s - %(message)s'
-)
-logger = logging.getLogger(__name__)
-
 Document Ingestion Script
 Loads documents, splits text, creates embeddings, and stores in vector database.
 """
@@ -15,6 +7,7 @@ import argparse
 import os
 from pathlib import Path
 from typing import List
+import logging
 
 from langchain_community.document_loaders import PyPDFLoader, TextLoader, UnstructuredURLLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -24,7 +17,12 @@ from langchain_community.vectorstores import FAISS, Chroma
 from dotenv import load_dotenv
 import torch
 
-import logging
+# Logging setup
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(name)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
 load_dotenv()
 

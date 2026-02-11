@@ -1,12 +1,4 @@
 """
-
-# Logging setup
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(name)s - %(message)s'
-)
-logger = logging.getLogger(__name__)
-
 PDF Parser - Extract content from PDFs to JSON
 Parses all PDFs and saves structured data to JSON for later chunking.
 """
@@ -17,6 +9,14 @@ from pathlib import Path
 from typing import List, Dict
 from datetime import datetime
 from tqdm import tqdm
+import logging
+
+# Logging setup
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(name)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
 from langchain_community.document_loaders import PyPDFLoader
 
@@ -176,8 +176,6 @@ class PDFParser:
 def main():
     """Main entry point."""
     import argparse
-
-import logging
 
     parser = argparse.ArgumentParser(
         description="Parse PDFs and save to structured JSON"

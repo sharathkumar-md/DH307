@@ -48,16 +48,6 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.retrievers import BM25Retriever
 from langchain.retrievers import EnsembleRetriever
 
-# RAGAS imports - REMOVED, using custom metrics instead
-# from ragas import evaluate
-# from ragas.metrics import (
-#     faithfulness,
-#     answer_relevancy,
-#     context_precision,
-#     context_recall,
-#     answer_correctness
-# )
-# from datasets import Dataset
 
 # Load environment
 from dotenv import load_dotenv
@@ -261,7 +251,7 @@ USE_OLLAMA = True  # Using local Ollama with custom evaluation metrics
 OLLAMA_MODEL = "qwen2.5:0.5b"  # Local model for both answer generation and evaluation
 
 RESULTS_DIR = "evaluation_results_answer_generation"
-NUM_TEST_QUERIES = 10  # Limit to first 10 queries for faster evaluation
+NUM_TEST_QUERIES = 50  # Limit to first 50 queries for faster evaluation
 
 # Retrieval configurations to test
 RETRIEVAL_CONFIGS = [

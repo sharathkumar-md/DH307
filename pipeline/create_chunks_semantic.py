@@ -1,12 +1,4 @@
 """
-
-# Logging setup
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(name)s - %(message)s'
-)
-logger = logging.getLogger(__name__)
-
 Semantic Chunking - Create chunks using semantic similarity
 Uses LlamaIndex for intelligent semantic-based text splitting.
 """
@@ -16,6 +8,14 @@ from pathlib import Path
 from typing import List, Dict
 from datetime import datetime
 import torch
+import logging
+
+# Logging setup
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(name)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
@@ -266,7 +266,5 @@ def main():
 
 if __name__ == "__main__":
     import sys
-
-import logging
     if not main():
         sys.exit(1)

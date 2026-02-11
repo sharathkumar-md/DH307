@@ -1,12 +1,4 @@
 """
-
-# Logging setup
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(name)s - %(message)s'
-)
-logger = logging.getLogger(__name__)
-
 JSON to Vector DB - Create chunks from parsed JSON and build vector database
 Reads structured JSON data and creates a vector database with proper chunk indexing.
 """
@@ -16,6 +8,7 @@ import os
 from pathlib import Path
 from typing import List, Dict
 from datetime import datetime
+import logging
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
@@ -24,14 +17,19 @@ from langchain.docstore.document import Document
 import torch
 
 
+# Logging setup
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(name)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
+
 def get_device():
     """Detect and return the best available device (GPU/CPU)."""
     if torch.cuda.is_available():
         device = "cuda"
-        logger.info("[GPU] CUDA detected: {torch.cuda.get_device_name(0)}")
-    elif hasattr(torch.backends, "mps") and torch.backends.mps.is_available():
-        device = "mps"
-        logger.info("[GPU] Apple Silicon detected (MPS)")
+        logger.info(f"[GPU] CUDA detected: {torch.cuda.get_device_name(0)}")
     else:
         device = "cpu"
         logger.info("[CPU] No GPU detected, using CPU")
@@ -285,8 +283,6 @@ class JSONChunker:
 def main():
     """Main entry point."""
     import argparse
-
-import logging
 
     parser = argparse.ArgumentParser(
         description="Create chunks from JSON and build vector database"

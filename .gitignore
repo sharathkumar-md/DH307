@@ -131,7 +131,7 @@ dmypy.json
 # RAG Chatbot specific files
 # Vector databases (contains processed document embeddings)
 vector_db/
-
+data/
 # Document storage (contains potentially sensitive PDFs)
 documents/
 
@@ -196,9 +196,14 @@ scripts/data/
 # Project-specific: Evaluation results (large files, regenerable)
 evaluation_results_*/
 evaluation/results/
+evaluation_results_answer_generation/
 *.csv
 retrieval_results_*.json
 
 # Project-specific: Test outputs
 test_output/
 outputs/
+PIPELINE_SUMMARY.md
+data
+data\test_queries.json
+C:\Users\Sharath Kumar MD\VSCodE\GitHub\DH307\data

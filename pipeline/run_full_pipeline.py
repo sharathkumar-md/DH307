@@ -1,12 +1,4 @@
 """
-
-# Logging setup
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(name)s - %(message)s'
-)
-logger = logging.getLogger(__name__)
-
 Full Pipeline - Parse PDFs to JSON, then create vector database
 Runs the complete two-stage pipeline.
 """
@@ -14,6 +6,14 @@ Runs the complete two-stage pipeline.
 import sys
 import subprocess
 from pathlib import Path
+import logging
+
+# Logging setup
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(name)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
 
 def run_command(cmd: list, description: str) -> bool:
@@ -48,8 +48,6 @@ def run_command(cmd: list, description: str) -> bool:
 def main():
     """Run the full pipeline."""
     import argparse
-
-import logging
 
     parser = argparse.ArgumentParser(
         description="Run full pipeline: PDFs → JSON → Vector DB"
