@@ -103,8 +103,16 @@ def load_existing_chunks():
         allow_dangerous_deserialization=True
     )
 
-    # Extract all documents
-    all_docs = vector_db.similarity_search("", k=10000)
+    # Extract all documents from FAISS docstore
+    all_docs = []
+    docstore = vector_db.docstore
+
+    # FAISS stores document IDs in index_to_docstore_id mapping
+    for doc_id in vector_db.index_to_docstore_id.values():
+        doc = docstore.search(doc_id)
+        if doc:
+            all_docs.append(doc)
+
     print(f"Loaded {len(all_docs)} document chunks")
 
     return all_docs
