@@ -58,6 +58,15 @@ import pickle
 from dotenv import load_dotenv
 load_dotenv()
 
+# Citation grounding
+import sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'enhancements'))
+try:
+    from ragflow_citations import CitationGrounder, format_citations_for_display
+    CITATIONS_AVAILABLE = True
+except ImportError:
+    CITATIONS_AVAILABLE = False
+
 ####################################################################
 #                    CONFIGURATION
 ####################################################################
@@ -601,7 +610,9 @@ def display_chat_history():
             if chat.get('sources'):
                 with st.expander(f"📚 Sources ({len(chat['sources'])} found)"):
                     for j, source in enumerate(chat['sources'], 1):
-                        st.text(f"📄 {source['document']} (Page {source['page']}) - Score: {source['score']:.3f}")
+                        # Show citation number if available
+                        cit_num = source.get('citation_num', j)
+                        st.text(f"[{cit_num}] {source['document']} (Page {source['page']})")
                         st.caption(source['preview'])
                         if j < len(chat['sources']):
                             st.divider()
@@ -754,17 +765,36 @@ def main():
                             result = st.session_state.conversational_chain({
                                 "question": user_query
                             })
-                            
+
                             answer = result.get('answer', 'Error generating response')
-                            
-                            # Extract sources
+
+                            # Extract sources and apply citation grounding
                             sources = []
-                            if 'source_documents' in result:
-                                for doc in result['source_documents'][:3]:
+                            source_docs = result.get('source_documents', [])
+
+                            # Apply citation grounding if available
+                            if CITATIONS_AVAILABLE and source_docs:
+                                cited_answer, citations = CitationGrounder.insert_citations(
+                                    answer, source_docs, similarity_threshold=0.3
+                                )
+                                answer = cited_answer
+
+                                # Use citations as sources
+                                for cit in citations:
+                                    sources.append({
+                                        'document': cit['source'],
+                                        'page': cit['page'],
+                                        'score': 0.0,
+                                        'preview': cit['content'],
+                                        'citation_num': cit['citation_num']
+                                    })
+                            else:
+                                # Fallback: extract sources without citations
+                                for doc in source_docs[:3]:
                                     sources.append({
                                         'document': doc.metadata.get('source_file', 'Unknown'),
                                         'page': doc.metadata.get('page_number', 'Unknown'),
-                                        'score': 0.0,  # ConversationalRetrievalChain doesn't return scores
+                                        'score': 0.0,
                                         'preview': doc.page_content[:200] + "..."
                                     })
                         except Exception as e:
