@@ -185,3 +185,7 @@ Thumbs.db
 *.bak
 *.backup
 *~
+
+# docs
+docs
+COMPLETE_EVALUATION_EXPLANATION.md
